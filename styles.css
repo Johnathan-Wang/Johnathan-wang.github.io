@@ -1,0 +1,274 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #FFD1DC;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: white;
+    margin: 40px auto;
+    width: 80%;
+}
+
+.big-divider {
+    border: 0;
+    height: 1px;
+    background-color: white;
+    margin: 5px auto;
+    width: 100%;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.title {
+    text-align: left;
+}
+
+.left {
+    text-align: left;
+    width: 50%
+}
+.right {
+    text-align: right;
+    width: 50%
+}
+
+.small-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Header */
+header {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #EF8AAA;
+}
+
+section {
+    padding: 50px;
+}
+
+/* Home Section */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home-text {
+    border: 1px;
+    width: 40%;
+    text-align: left;
+}
+
+.home-image img {
+    width: 60%;
+    height: auto;
+    border: 1px;
+    border-radius: 25px;
+    align-items: center;
+}
+
+/* Project Section */
+.project-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-text {
+    border: 1px;
+    width: 40%;
+    text-align: left;
+
+}
+
+.project-image img {
+    width: 40%;
+    height: auto;
+    border: 1px;
+}
+
+/*Models Section */
+.models-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.models-image img {
+    width: 40%;
+    height: auto;
+    border: 1px;
+}
+
+/* About Section */
+.about-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.skill-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skill {
+    background-color: #FFD1DC;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.skill:hover {
+    background-color: #EF8AAA;
+}
+
+
+/* Contact Section */
+.contact-container {
+    display: flex;
+    align-items: top, center;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-contact-container {
+    align-items: right;
+    width: 50%;
+}
+
+/*  inputs style */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    background-color: #3B3B3B;
+    color: white;
+    border: none; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+  }
+  
+  /* submit button style */
+  input[type=submit] {
+    background-color: #FFD1DC;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* button hover*/
+  input[type=submit]:hover {
+    background-color: #EF8AAA;
+  }
+  
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 32px;
+    color: #FFD1DC;
+    transition: color 0.3s ease;
+}
+
+.icon:hover {
+    color: #EF8AAA;
+}
+
+
+
+
